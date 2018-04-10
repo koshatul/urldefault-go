@@ -4,6 +4,7 @@ Golang wrapper for net/url with the option to specify a default URL and override
 
 * [Install](#install)
 * [Examples](#examples)
+* [Testing](#testing)
 
 ## Install
 
@@ -63,3 +64,9 @@ func main() {
 }
 ```
 would return `amqp://admin:admin@differenthost:5672/vhost`
+
+## Testing
+
+```sh
+go test github.com/koshatul/urldefault-go/...
+```
